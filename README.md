@@ -1,6 +1,8 @@
 # react-app-rewire-alias
 Add your own alias to packages so you don't have to type "../" a hundred times
 
+**NOT YET TESTED FOR PRODUCTION BUILDS**
+
 ## Usage
 
 ```javascript
