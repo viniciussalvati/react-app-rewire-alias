@@ -3,6 +3,10 @@ Add your own alias to packages so you don't have to type "../" a hundred times
 
 **NOT YET TESTED FOR PRODUCTION BUILDS**
 
+## How this package works
+
+Add the aliases to webpack's alias. If any starts with `~/`, we will replace it by `./` and run it through `path.resolve` before adding it to webpack.
+
 ## Usage
 
 ```javascript
